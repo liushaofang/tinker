@@ -3,6 +3,8 @@ buildscript {
     repositories {
         mavenLocal()
         jcenter()
+        jcenter{ url "http://jcenter.bintray.com/"}
+        maven { url "http://maven.aliyun.com/nexus/content/repositories/releases/" }
         google()
     }
     dependencies {
@@ -26,6 +28,7 @@ allprojects {
     repositories {
         mavenLocal()
         jcenter()
+        maven { url "http://maven.aliyun.com/nexus/content/repositories/releases/" }
         google()
     }
 }
